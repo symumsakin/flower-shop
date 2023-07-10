@@ -66,4 +66,63 @@ header {
   text-align: center;
   font-size: 40px;
   font-weight: 700;
+  margin-top: 150px;
 }
+
+.featured-text p {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+/* featured section flower gallery styles */
+
+.flower-gallery {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 170px;
+  justify-content: center;
+}
+
+.flower-1 {
+  width: 300px;
+  height: 350px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+}
+
+.flower-1 img {
+  width: 230px;
+  margin-top: 32.5px;
+  margin-left: 25px;
+}
+
+.flower-2 {
+  width: 300px;
+  height: 350px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+}
+
+.flower-2 img {
+  width: 290px;
+  margin-top: 44px;
+  margin-left: 15px;
+}
+
+.flower-3 {
+  width: 300px;
+  height: 350px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+}
+
+.flower-3 img {
+  width: 233px;
+  margin-left: 35px;
+}
+
