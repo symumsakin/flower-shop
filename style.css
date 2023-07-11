@@ -157,7 +157,7 @@ header {
   justify-content: center;
   align-items: center;
   gap: 80px;
-  margin: 100px 150px;
+  margin: 100px 200px;
   height: 250px;
   flex-shrink: 0;
   border-radius: 8px;
@@ -170,4 +170,56 @@ header {
   font-family: Lato;
   font-weight: 600;
   line-height: 35px;
+}
+
+.sale {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+}
+
+
+
+.sale-details > h1 {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 150px;
+}
+
+.sale-off-span {
+  color: #e55473;
+}
+
+.sale-details > p {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+
+  display: flex;
+  width: 594px;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+.sale-details button {
+  width: 140px;
+  padding: 15px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 8px;
+  background: #e55473;
+  border: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-up-btn-div{
+  margin: 0px 220px;
 }
