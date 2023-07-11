@@ -176,6 +176,10 @@ header {
   display: flex;
   gap: 100px;
   justify-content: center;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .sale-details > h1 {
@@ -342,7 +346,7 @@ footer {
   flex-shrink: 0;
 }
 
-footer div{
+footer div {
   justify-content: center;
 }
 
@@ -377,7 +381,11 @@ footer p {
   font-weight: 400;
 }
 
-.flower-shop{
+.flower-shop {
   display: flex;
   justify-content: center;
+}
+
+.sub-btn{
+  margin-left: 8px;
 }
